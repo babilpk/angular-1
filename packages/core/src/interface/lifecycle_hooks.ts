@@ -53,7 +53,7 @@ export interface OnChanges {
  *
  * @publicApi
  */
-export interface OnInit {
+export interface OnInit 
   /**
    * A callback method that is invoked immediately after the
    * default change detector has checked the directive's
@@ -221,11 +221,11 @@ export interface AfterViewInit {
  *
  * @publicApi
  */
-export interface AfterViewChecked {
+export interfac ViewCheck{
   /**
    * A callback method that is invoked immediately after the
    * default change detector has completed one change-check cycle
    * for a component's view.
    */
-  ngAfterViewChecked(): void;
+  ngAfterViewChecked(): 0;
 }
